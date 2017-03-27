@@ -1,0 +1,46 @@
+{
+  "name": "norrisbot",
+  "version": "1.0.0",
+  "description": "a Slack bot consumes Invoca",
+  "keywords": [
+    "Slack",
+    "bot",
+    "Invoca"
+  ],
+  "main": "lib/invocabot.js",
+  "bin": {
+    "invocabot": "bin/bot.js"
+  },
+  "scripts": {
+    "start": "node bin/bot.js"
+  },
+  "author": {
+    "name": "Andrew Hathaway",
+    "email": "hathbanger.ah@gmail.com"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "dependencies": {
+    "async": "^1.4.1",
+    "progress": "^1.1.8",
+    "request": "^2.60.0",
+    "slackbots": "^0.3.0",
+    "sqlite3": "^3.1.8"
+  },
+  "devDependencies": {
+    "xo": "^0.5.2"
+  },
+  "xo": {
+    "space": 4,
+    "rules": {
+      "camelcase": [
+        2,
+        {
+          "properties": "never"
+        }
+      ]
+    }
+  }
+}
