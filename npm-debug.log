@@ -1,35 +1,33 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/usr/local/Cellar/node012/0.12.7/bin/node',
-1 verbose cli   '/usr/local/bin/npm',
-1 verbose cli   'start' ]
-2 info using npm@3.10.8
-3 info using node@v5.4.1
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'start' ]
+2 info using npm@4.0.5
+3 info using node@v7.4.0
 4 verbose run-script [ 'prestart', 'start', 'poststart' ]
 5 info lifecycle norrisbot@1.0.0~prestart: norrisbot@1.0.0
 6 silly lifecycle norrisbot@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle norrisbot@1.0.0~start: norrisbot@1.0.0
 8 verbose lifecycle norrisbot@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle norrisbot@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/andrewhathaway/Documents/bblocal/invocatron/node_modules/.bin:/usr/local/Cellar/node012/0.12.7/bin:/Users/andrewhathaway/.rvm/gems/ruby-2.2.0/bin:/Users/andrewhathaway/.rvm/gems/ruby-2.2.0@global/bin:/Users/andrewhathaway/.rvm/rubies/ruby-2.2.0/bin:/Library/Frameworks/Python.framework/Versions/3.4/bin:/opt/local/bin:/opt/local/sbin:/usr/local/mysql/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/andrewhathaway/.rvm/bin:/usr/local/go/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/usr/local/git/bin:/Users/andrewhathaway/.rvm/bin:/Users/andrewhathaway/.rvm/bin
-10 verbose lifecycle norrisbot@1.0.0~start: CWD: /Users/andrewhathaway/Documents/bblocal/invocatron
+9 verbose lifecycle norrisbot@1.0.0~start: PATH: /usr/local/lib/node_modules/npm/bin/node-gyp-bin:/Users/Andrew.Hathaway/Documents/cyh_local/invocatron/node_modules/.bin:/Users/Andrew.Hathaway/.rvm/gems/ruby-2.2.0/bin:/Users/Andrew.Hathaway/.rvm/gems/ruby-2.2.0@global/bin:/Users/Andrew.Hathaway/.rvm/rubies/ruby-2.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/go/bin:/Users/Andrew.Hathaway/.rvm/bin:/Users/Andrew.Hathaway/Documents/cyh_local:/Users/Andrew.Hathaway/.rvm/bin
+10 verbose lifecycle norrisbot@1.0.0~start: CWD: /Users/Andrew.Hathaway/Documents/cyh_local/invocatron
 11 silly lifecycle norrisbot@1.0.0~start: Args: [ '-c', 'node bin/bot.js' ]
 12 silly lifecycle norrisbot@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle norrisbot@1.0.0~start: Failed to exec start script
 14 verbose stack Error: norrisbot@1.0.0 start: `node bin/bot.js`
 14 verbose stack Exit status 1
-14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:255:16)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at EventEmitter.emit (events.js:172:7)
+14 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/lifecycle.js:279:16)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at EventEmitter.emit (events.js:191:7)
 14 verbose stack     at ChildProcess.<anonymous> (/usr/local/lib/node_modules/npm/lib/utils/spawn.js:40:14)
-14 verbose stack     at emitTwo (events.js:87:13)
-14 verbose stack     at ChildProcess.emit (events.js:172:7)
-14 verbose stack     at maybeClose (internal/child_process.js:821:16)
-14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:211:5)
+14 verbose stack     at emitTwo (events.js:106:13)
+14 verbose stack     at ChildProcess.emit (events.js:191:7)
+14 verbose stack     at maybeClose (internal/child_process.js:885:16)
+14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:226:5)
 15 verbose pkgid norrisbot@1.0.0
-16 verbose cwd /Users/andrewhathaway/Documents/bblocal/invocatron
-17 error Darwin 14.5.0
-18 error argv "/usr/local/Cellar/node012/0.12.7/bin/node" "/usr/local/bin/npm" "start"
-19 error node v5.4.1
-20 error npm  v3.10.8
+16 verbose cwd /Users/Andrew.Hathaway/Documents/cyh_local/invocatron
+17 error Darwin 14.4.0
+18 error argv "/usr/local/bin/node" "/usr/local/bin/npm" "start"
+19 error node v7.4.0
+20 error npm  v4.0.5
 21 error code ELIFECYCLE
 22 error norrisbot@1.0.0 start: `node bin/bot.js`
 22 error Exit status 1
