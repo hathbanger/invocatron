@@ -10,7 +10,7 @@
  *
  *   destFile is optional and it will default to "invocabot.db"
  *
- * @author Luciano Mammino <lucianomammino@gmail.com>
+ * @author Andrew Hathaway
  */
 
 var path = require('path');
